@@ -1,0 +1,54 @@
+:root{
+  --primary : rgb(220,220,255);
+  --secondary :#a4a;
+}
+.header{
+  min-height: 40px;
+  font-size: 24px;
+  vertical-align: middle;
+  text-align: center;
+display: block;
+  color: var(--secondary);
+  background-color: var(--primary);
+}
+.main
+{
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.main_body{
+  position: relative;
+  width: 100%;
+}
+.header
+{
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+body{
+  margin:0px !important;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.portrait{
+  display: inline-block;
+    padding: 40px;
+    width:20vw;
+    height: 400px;
+}
+.img_c img{
+  width:  20vw;
+  height: 200px;
+}
+.img_ph{
+  width:  20vw;
+  height: 100px;
+  padding: 5px;
+}
+.nomargin{
+  margin: 0px !important;
+}
